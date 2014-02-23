@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+  
+  	<title>Bubble Text!</title>
+  	  	
+  </head>
+  <body>
+  <div>
+  	Enter Text: <input type="text" name="textbox" id="textbox">
+ 	
+ 	<button onclick="submit()">Set text</button>
+ 	
+ </div> 
+
+ 	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="alphabet.js"></script>
+    <canvas id="myCanvas"></canvas>
+    <script type="text/javascript" src="bubbles.js"></script>
+    <script type="text/javascript">
+		var red = [0, 100, 63];
+		var orange = [40, 100, 60];
+		var green = [75, 100, 40];
+		var blue = [196, 77, 55];
+		var purple = [280, 50, 60];
+		
+		var bubbleText = "Try it out!"
+		function submit() {
+		var bubbleText = document.getElementById("textbox").value;
+		drawName(bubbleText, letterColors);
+		bounceName();
+		bounceBubbles();
+		}		
+		
+		var letterColors = [red, orange, green, blue, purple]
+		if(1 < 10) {
+		    bubbleShape = "circle";
+		}
+		else {
+		    bubbleShape = "square";
+		}
+	
+	
+		drawName(bubbleText, letterColors);
+		bounceName();
+		bounceBubbles();    
+    </script>
+  </body>
+</html>
