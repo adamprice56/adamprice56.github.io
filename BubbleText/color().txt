@@ -1,0 +1,160 @@
+	function color() {		
+		var color1v = document.getElementById("color1").value;
+		var color2v = document.getElementById("color2").value;
+		var color3v = document.getElementById("color3").value;
+		var color4v = document.getElementById("color4").value;
+		var color5v = document.getElementById("color5").value;
+		
+		switch (color1v) {
+		case "red":
+		color1v = [0, 100, 63];
+		break;
+		case "orange": 
+		color1v = [40,100, 60];
+		break;
+		case "green":
+		color1v = [75, 100, 40];
+		break;
+		case "blue":
+		color1v = [196, 77, 55];
+		break;
+		case "purple":
+		color1v = [280, 50, 60];
+		break;
+		}
+		
+		switch (color2v) {
+		case "red":
+		color2v = [0, 100, 63];
+		break;
+		case "orange": 
+		color2v = [40,100, 60];
+		break;
+		case "green":
+		color2v = [75, 100, 40];
+		break;
+		case "blue":
+		color2v = [196, 77, 55];
+		break;
+		case "purple":
+		color2v = [280, 50, 60];
+		break;
+		}
+		
+		switch (color3v) {
+		case "red":
+		color3v = [0, 100, 63];
+		break;
+		case "orange": 
+		color3v = [40,100, 60];
+		break;
+		case "green":
+		color3v = [75, 100, 40];
+		break;
+		case "blue":
+		color3v = [196, 77, 55];
+		break;
+		case "purple":
+		color3v = [280, 50, 60];
+		break;
+		}
+		
+		switch (color4v) {
+		case "red":
+		color4v = [0, 100, 63];
+		break;
+		case "orange": 
+		color4v = [40,100, 60];
+		break;
+		case "green":
+		color4v = [75, 100, 40];
+		break;
+		case "blue":
+		color4v = [196, 77, 55];
+		break;
+		case "purple":
+		color4v = [280, 50, 60];
+		break;
+		}
+
+		switch (color5v) {
+		case "red":
+		color5v = [0, 100, 63];
+		break;
+		case "orange": 
+		color5v = [40,100, 60];
+		break;
+		case "green":
+		color5v = [75, 100, 40];
+		break;
+		case "blue":
+		color5v = [196, 77, 55];
+		break;
+		case "purple":
+		color5v = [280, 50, 60];
+		break;
+		}
+
+		
+		var letterColors = [color1v, color2v, color3v, color4v, color5v];
+		drawName(bubbleText, letterColors);
+		bounceName();
+		bounceBubbles();
+		}
+
+
+
+
+<div>
+  	Enter Text: <input type="text" name="textbox" id="textbox">
+ 	
+ 	<button onclick="submit()">Set text</button>
+ 	
+ 	Colour 1 : <select name="Color1" onchange="color()" id="color1">
+				<option value="red">Red</option>
+				<option value="orange">Orange</option>
+				<option value="green">Green</option>
+				<option value="blue">Blue</option>
+				<option value="purple">Purple</option>
+			</select>
+			
+	Colour 2 : <select name="Color2" onchange="color()" id="color2">
+				<option value="orange">Orange</option>
+				<option value="red" >Red</option>				
+				<option value="green">Green</option>
+				<option value="blue">Blue</option>
+				<option value="purple">Purple</option>
+			</select>
+			
+	Colour 3 : <select name="Color3" onchange="color()" id="color3">
+				<option value="green">Green</option>
+				<option value="red">Red</option>
+				<option value="orange">Orange</option>
+				<option value="blue">Blue</option>
+				<option value="purple">Purple</option>
+			</select>
+			
+	Colour 4 : <select name="Color4" onchange="color()" id="color4">
+				<option value="blue">Blue</option>
+				<option value="red">Red</option>
+				<option value="orange">Orange</option>
+				<option value="green">Green</option>
+				<option value="purple">Purple</option>
+			</select>
+			
+	Colour 5 : <select name="Color5" onchange="color()" id="color5">
+				<option value="purple">Purple</option>
+				<option value="red">Red</option>
+				<option value="orange">Orange</option>
+				<option value="green">Green</option>
+				<option value="blue">Blue</option>
+			</select>
+
+
+
+Bubble Shape: <select name="bubbleShape" onchange="bubbleShape()" id="bubblechange">
+				<option value="Circle">Circle</option>
+				<option value="Square">Square</option>
+			</select>
+ 	
+ </div> 
