@@ -1,50 +1,20 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
-  	<link type="text/css" ref="stylesheet" href="stylesheet.css"/>
-  	<title>Bubble Text!</title>
-  	<h1>Bubble Text!</h1>
-  	  	
-  </head>
-  <body>
-  <div>
-  	Enter Text: <input type="text" name="textbox" id="textbox">
- 	
- 	<button onclick="submit()">Set text</button>
- 	
- </div> 
 
- 	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="alphabet.js"></script>
-    <canvas id="myCanvas"></canvas>
-    <script type="text/javascript" src="bubbles.js"></script>
-    <script type="text/javascript">
-		var red = [0, 100, 63];
-		var orange = [40, 100, 60];
-		var green = [75, 100, 40];
-		var blue = [196, 77, 55];
-		var purple = [280, 50, 60];
-		
-		var bubbleText = "Try it out!"
-		function submit() {
-		var bubbleText = document.getElementById("textbox").value;
-		drawName(bubbleText, letterColors);
-		bounceName();
-		bounceBubbles();
-		}		
-		
-		var letterColors = [red, orange, green, blue, purple]
-		if(1 < 10) {
-		    bubbleShape = "circle";
-		}
-		else {
-		    bubbleShape = "square";
-		}
+	<head>
+		<title>AdamPrice56's Github Page!</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css">
+	</head>
 	
-	
-		drawName(bubbleText, letterColors);
-		bounceName();
-		bounceBubbles();    
-    </script>
-  </body>
+	<body>
+		<h1> Adam's <span>Github</span> Page!</h1>
+		
+		<h3>There's not much here...</h3>
+		
+		<h4><u><strong>Random Html Projects:</strong></u></h4>
+		
+		<a href="BubbleText/bubbletext.html">BubbleText V2.0</a>
+		
+	</body>
+
 </html>
