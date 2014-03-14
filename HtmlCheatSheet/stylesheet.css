@@ -5,11 +5,14 @@ border-bottom-left-radius: 25px;
 border-bottom-right-radius: 25px;
 border-color: red;
 border-width: thick;
-border-top-color: gray;
+border-top-color: black;
 width: auto;
 height: auto;
 padding-top: 0;
 margin-top: 0;
- 
+}
+
+h1 {
+ color: white;
 }
 
