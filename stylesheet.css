@@ -1,4 +1,4 @@
-﻿html {
+html {
 	background-color:silver;
 }
 
@@ -52,7 +52,7 @@ margin-right:auto;
  
 }
 
-#Projects #Others {
+#Projects {
 text-align: center;
 background-color:gray;
 border-radius: 25px;
@@ -80,6 +80,13 @@ span {
 h3 {
 	font-family: Consolas;
 	color: aqua
+}
+
+div{
+	border-color: black;
+	border-style: solid;
+	width: 255px;
+	height: 220px;
 }
 
 a {
