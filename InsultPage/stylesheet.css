@@ -12,8 +12,8 @@ h1 {
 
 #Insult {
 	width: auto;
-	animation: move 1s ease-in-out 0.5s 2 alternate infinite; 
-   -webkit-animation: move 1s ease-in-out 0.5s 2 alternate infinite; 
+	animation: move 1s ease-in-out 0.5s 2 alternate; 
+   -webkit-animation: move 1s ease-in-out 0.5s 2 alternate; 
 }
    
 @keyframes move {
