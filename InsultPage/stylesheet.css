@@ -1,20 +1,19 @@
 h1 {
 	color: #000000;
-	font-size: small;
+	font-size: normal;
 	transition: color , font-size 0.7s ease-in 0.0s;
 	
 }
 
-h1:hover {
+#Insult:hover {
 	color: #FF0000;
 	font-size: large;
 }
 
 #Insult {
-	background-color:gray;
-	width: 50px;
-	animation: move 1s ease-in-out 0.5s 2 alternate; 
-   -webkit-animation: move 1s ease-in-out 0.5s 2 alternate; 
+	width: auto;
+	animation: move 1s ease-in-out 0.5s 2 alternate infinite; 
+   -webkit-animation: move 1s ease-in-out 0.5s 2 alternate infinite; 
 }
    
 @keyframes move {
