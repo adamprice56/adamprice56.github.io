@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/slyhedgehog
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://aprice.cf
+  * I am slyhedgehog (https://keybase.io/slyhedgehog) on keybase.
+  * I have a public key ASBbS7cg3CDGvbJMEMDcTsTJyycRYBKe7HayzlObmxPZrAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208e29a7ab5252e2dc8ac54e5e5c66fc055ed6aab7aa23cda30a71f34e21ec03400a",
+      "host": "keybase.io",
+      "kid": "01205b4bb720dc20c6bdb24c10c0dc4ec4c9cb271160129eec76b2ce539b9b13d9ac0a",
+      "uid": "127ac0275d7a968e6efb775af506f319",
+      "username": "slyhedgehog"
+    },
+    "merkle_root": {
+      "ctime": 1553084750,
+      "hash": "dc2bb5dc655f41592ee61b6cf704c83f8fe3f5388257df5a997b9573c7cdaf9fbdfc1c7e4008eb4953ca7dad70ead8482c0053c4672541f79e8d95cc4143cb7c",
+      "hash_meta": "d9c22bba80d80ab35dcf161364b20852d28bbd55cb4929b199554e96ec872ca7",
+      "seqno": 4987158
+    },
+    "service": {
+      "entropy": "FsvGS3h20vkTU4+JlUoypSfi",
+      "hostname": "aprice.cf",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1553084754,
+  "expire_in": 504576000,
+  "prev": "75aab93e1ba9d30b61185557d4e8835544ebc4fb0ab0570a4ad7485518d30d59",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgW0u3INwgxr2yTBDA3E7EycsnEWASnux2ss5Tm5sT2awKp3BheWxvYWTESpcCEcQgdaq5Phup0wthGFVX1OiDVUTrxPsKsFcKStdIVRjTDVnEIMs9mXOyI93TGJzOkqBw/q3Sv2OLG/v+WQLE/apRgnIZAgHCo3NpZ8RA5jNMKOPKXVGEHL+sZB0ehNm9DVXhAUsQMfGMbSEHG45VjtU+z/fp1PJE8/alz48VtBbaO67QYAcHGDeDtqBIDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEIH4vY/xS+xJ1nVSR9BAfrbPE3LszLPcFwya0ouoJbLo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/slyhedgehog
+
+==================================================================
